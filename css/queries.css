@@ -1,0 +1,59 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px){
+  
+  
+}
+
+
+
+/* Small tablet to big tablet: from 768px to 991px */
+
+@media only screen and (max-width:991px){
+   
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    .header{
+        font-size: 100%;
+    }
+    .home{
+        width: 75%;
+        margin: 50px auto 0;
+    }
+    .about-sec .about-sec-figure , .about-sec .about-sec-info
+    ,.ourLocation-sec-info , .ourLocation-sec-figure{
+    width: 100%;
+    padding: 15px 15px;
+    
+}
+    .about-sec .about-sec-info h2,.about-sec .about-sec-info p
+    ,.ourLocation-sec-info h2 , .ourLocation-sec-info p{
+    padding: 10px 0px 10px 0px;
+}
+    .ourBaking-sec-items .item {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+    .contact-info , .contact-location{
+    width: 100%;
+    padding: 20px 10px;
+}
+    .summary-content .sections{
+    width: 50%;
+    padding: 10px;
+    font-size: 100%
+}
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    
+   .summary-content .sections{
+    width: 100%;
+}
+    
+}
